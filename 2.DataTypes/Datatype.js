@@ -31,3 +31,6 @@ var qualification = "BTech+MBA"
 var qualification = "BTech+MBA+PHD"
 console.log("Qualification : "+qualification);
 
+let undefined = "undefined";
+console.log(undefined);
+
