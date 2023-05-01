@@ -13,13 +13,14 @@ console.log(a,b,c,d,e,f,g);
 console.log(typeof c);
 
 // Non-Primitive datatype Objects in JS
-
+// You can append new field in existing objects
 const person = {
     "name":"Rohan",
     "Age":28,
     "Address":"Mumbai",
     "Employeed":true
 }
+person['Salary'] = 20000;
 console.log(person);
 console.log(person["name"]);
 console.log(person.Address);
