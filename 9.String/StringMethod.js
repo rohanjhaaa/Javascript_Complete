@@ -6,6 +6,8 @@ console.log("String index : "+sentance1.indexOf("J"))
 console.log("String slice : "+sentance1.slice(2,4))
 console.log("String replace : "+sentance1.replace("awesome","GOAT"))
 console.log("String concat : "+ sentance1.concat(" of all time"))
+console.log("String includes : "+sentance1.includes("is"))
+console.log("Startswith : "+sentance1.startsWith("J"))
 let sentance2 = "       ROHAN         ";
 console.log("String trim : "+ sentance2.trim())
 
