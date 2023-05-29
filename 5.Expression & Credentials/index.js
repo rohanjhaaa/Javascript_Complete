@@ -39,3 +39,14 @@ console.log("m<n && m==n : "+ (m>n && m==n));
 
 let age = 19;
 console.log(age>18?"You can drive the car":"You are kid");
+
+// ALert, Prompt, Confirm
+
+let name = prompt("Enter you Name : ")
+alert("Your name is "+name)
+
+let ageValidate = confirm("Are you eligible to vote (18+) ? ")
+alert("Eligibility : "+ ageValidate)
+
+document.getElementById("name").innerHTML = name
+document.getElementById("eligible").innerHTML = ageValidate

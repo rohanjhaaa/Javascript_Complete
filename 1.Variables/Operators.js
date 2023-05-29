@@ -29,5 +29,9 @@ let randomNumber = Math.random() * (10 - 1)+1
 randomNumber = randomNumber.toPrecision(1)
 console.log("RandomNumber : "+randomNumber)
 
-let randomName = "abc"
-randomName.toLowerCase
+let num1 = "2"
+let num2 = 2
+let num3 = 2
+console.log("== : "+(num1 == num2))
+console.log("=== : "+(num1 === num2))
+console.log("=== : "+(num2 === num3))
